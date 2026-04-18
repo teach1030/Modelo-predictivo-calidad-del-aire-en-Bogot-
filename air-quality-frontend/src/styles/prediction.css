@@ -1,0 +1,33 @@
+.prediction__container {
+    text-align: center;
+    padding: 20px;
+}
+
+.prediction__title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3b8d56;
+}
+
+.aqi-value {
+    color: #2a7c4f;
+}
+
+.aqi-status {
+    color: #2a7c4f;
+    font-style: italic;
+}
+
+.prediction__image img {
+    width: 300px; /* Ajusta el tamaño según sea necesario */
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+.prediction__description {
+    font-size: 14px;
+    color: #444;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+}

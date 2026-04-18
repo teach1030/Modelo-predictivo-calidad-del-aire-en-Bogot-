@@ -1,0 +1,42 @@
+.map-view{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.map-view__form{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 60px;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.map-view__button{
+    display: flex;
+    align-items: end;
+    width: 220px;
+}
+
+.map-view__button button{
+    margin: 0px !important;
+}
+
+.map-overlay {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: white;    
+    padding: 16px;
+    border-radius: 2px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 470px;
+    height: 520px;
+    z-index: 10;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  

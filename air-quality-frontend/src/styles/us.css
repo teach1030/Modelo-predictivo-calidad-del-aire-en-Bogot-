@@ -1,0 +1,43 @@
+
+.us-container {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .us-container h1 {
+    color: #c62828;
+    margin-bottom: 1rem;
+  }
+  
+  .us-container p {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .us-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .us-card {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .us-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .us-avatar {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+  }
